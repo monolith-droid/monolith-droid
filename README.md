@@ -8,19 +8,22 @@ mission console, no surprise launches.
 
 ## Now Building
 
-### [Codex Maintainer Safety Kit](https://github.com/monolith-droid/codex-maintainer-safety-kit)
+### [I/O Safety Kit for OSS](https://github.com/monolith-droid/io-safety-kit-for-oss)
 
-[![CI](https://github.com/monolith-droid/codex-maintainer-safety-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/monolith-droid/codex-maintainer-safety-kit/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/monolith-droid/codex-maintainer-safety-kit?label=release)](https://github.com/monolith-droid/codex-maintainer-safety-kit/releases)
+[![CI](https://github.com/monolith-droid/io-safety-kit-for-oss/actions/workflows/ci.yml/badge.svg)](https://github.com/monolith-droid/io-safety-kit-for-oss/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/monolith-droid/io-safety-kit-for-oss?label=release)](https://github.com/monolith-droid/io-safety-kit-for-oss/releases)
 
-A fail-closed operations layer for maintainers using Codex for PR review, issue
-triage, release prep, security checks, and handoff reports.
+A fail-closed I/O safety layer for OSS maintainers using Codex and other coding
+agents for PR review, issue triage, release prep, security checks, and handoff
+reports.
 
 What it focuses on:
 
 - approval manifests,
+- scoped agent input,
 - report-only defaults,
 - fail-closed gates,
+- safe output promotion,
 - auditable maintainer reports,
 - regression tests for high-risk actions.
 
@@ -39,6 +42,6 @@ paths, and service-specific workflows stay off the public surface.
 
 ## Links
 
-- [Project repository](https://github.com/monolith-droid/codex-maintainer-safety-kit)
-- [Security model](https://github.com/monolith-droid/codex-maintainer-safety-kit/blob/main/docs/security-model.md)
-- [Downstream dogfooding](https://github.com/monolith-droid/codex-maintainer-safety-kit/blob/main/docs/downstream-dogfooding.md)
+- [Project repository](https://github.com/monolith-droid/io-safety-kit-for-oss)
+- [Security model](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/security-model.md)
+- [Downstream dogfooding](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/downstream-dogfooding.md)
