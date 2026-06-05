@@ -13,9 +13,9 @@ mission console, no surprise launches.
 [![CI](https://github.com/monolith-droid/io-safety-kit-for-oss/actions/workflows/ci.yml/badge.svg)](https://github.com/monolith-droid/io-safety-kit-for-oss/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/monolith-droid/io-safety-kit-for-oss?label=release)](https://github.com/monolith-droid/io-safety-kit-for-oss/releases)
 
-A fail-closed I/O safety layer for OSS maintainers using Codex and other coding
-agents for PR review, issue triage, release prep, security checks, and handoff
-reports.
+A stable v1 fail-closed I/O safety layer for OSS maintainers using Codex and
+other coding agents for PR review, issue triage, release prep, security checks,
+and handoff reports.
 
 What it focuses on:
 
@@ -24,6 +24,7 @@ What it focuses on:
 - report-only defaults,
 - fail-closed gates,
 - safe output promotion,
+- evidence bundle review,
 - auditable maintainer reports,
 - regression tests for high-risk actions.
 
@@ -35,13 +36,14 @@ paths, and service-specific workflows stay off the public surface.
 
 ## Next Signals
 
-- PR review report rendering
-- issue triage report rendering
-- signed approval manifest design
+- downstream adapter confidence for the v1 line
+- adapter-safe JSON handling
+- synthetic maintainer case studies
 - safer downstream dogfooding patterns
 
 ## Links
 
 - [Project repository](https://github.com/monolith-droid/io-safety-kit-for-oss)
+- [Latest release](https://github.com/monolith-droid/io-safety-kit-for-oss/releases/tag/v1.0.0)
 - [Security model](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/security-model.md)
 - [Downstream dogfooding](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/downstream-dogfooding.md)
