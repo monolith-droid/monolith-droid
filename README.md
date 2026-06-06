@@ -28,6 +28,24 @@ What it focuses on:
 - auditable maintainer reports,
 - regression tests for high-risk actions.
 
+### [MONOLITH Core](https://github.com/monolith-droid/monolith-core)
+
+[![CI](https://github.com/monolith-droid/monolith-core/actions/workflows/ci.yml/badge.svg)](https://github.com/monolith-droid/monolith-core/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/monolith-droid/monolith-core?label=release)](https://github.com/monolith-droid/monolith-core/releases)
+
+A new public-safe core for durable agent memory: Obsidian-backed knowledge
+cards, indexes, context packs, and branch-return checks for coding-agent
+workflows.
+
+What it focuses on:
+
+- one information unit per card,
+- machine-readable knowledge indexes,
+- task-specific context packs,
+- branch-return reports,
+- Hermes-style report-only curation,
+- synthetic fixtures and CI-friendly validation.
+
 ## Public Boundary
 
 This profile only publishes the reusable OSS layer: tools, docs, examples,
@@ -36,14 +54,15 @@ paths, and service-specific workflows stay off the public surface.
 
 ## Next Signals
 
-- downstream adapter confidence for the v1 line
+- MONOLITH Core v0.1 follow-up issues
+- downstream adapter confidence for the I/O Safety Kit v1 line
 - adapter-safe JSON handling
-- synthetic maintainer case studies
 - safer downstream dogfooding patterns
 
 ## Links
 
-- [Project repository](https://github.com/monolith-droid/io-safety-kit-for-oss)
-- [Latest release](https://github.com/monolith-droid/io-safety-kit-for-oss/releases/tag/v1.0.0)
-- [Security model](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/security-model.md)
-- [Downstream dogfooding](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/downstream-dogfooding.md)
+- [I/O Safety Kit for OSS](https://github.com/monolith-droid/io-safety-kit-for-oss)
+- [I/O Safety Kit latest release](https://github.com/monolith-droid/io-safety-kit-for-oss/releases/tag/v1.1.0)
+- [I/O Safety Kit security model](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/security-model.md)
+- [MONOLITH Core](https://github.com/monolith-droid/monolith-core)
+- [MONOLITH Core latest release](https://github.com/monolith-droid/monolith-core/releases/tag/v0.1.0)
