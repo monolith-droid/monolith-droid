@@ -65,4 +65,4 @@ paths, and service-specific workflows stay off the public surface.
 - [I/O Safety Kit latest release](https://github.com/monolith-droid/io-safety-kit-for-oss/releases/tag/v1.1.0)
 - [I/O Safety Kit security model](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/security-model.md)
 - [MONOLITH Core](https://github.com/monolith-droid/monolith-core)
-- [MONOLITH Core latest release](https://github.com/monolith-droid/monolith-core/releases/tag/v0.1.0)
+- [MONOLITH Core latest release](https://github.com/monolith-droid/monolith-core/releases/tag/v0.1.1)
