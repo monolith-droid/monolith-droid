@@ -3,8 +3,11 @@
 Small, careful tools for AI-assisted open source maintenance.
 
 MONOLITH is a public lab name for building practical maintainer utilities around
-Codex and coding agents. The tone is a little space-age: quiet black slab, calm
-mission console, no surprise launches.
+Codex and coding agents. The current work is split into two small, reusable
+layers: one for side-effect boundaries, and one for durable context.
+
+The tone is a little space-age: quiet black slab, calm mission console, no
+surprise launches.
 
 ## Now Building
 
@@ -17,6 +20,9 @@ A stable v1 fail-closed I/O safety layer for OSS maintainers using Codex and
 other coding agents for PR review, issue triage, release prep, security checks,
 and handoff reports.
 
+It answers the operational question: what may an agent read, propose, render,
+or promote without surprising the maintainer?
+
 What it focuses on:
 
 - approval manifests,
@@ -25,6 +31,7 @@ What it focuses on:
 - fail-closed gates,
 - safe output promotion,
 - evidence bundle review,
+- cross-platform downstream dogfooding,
 - auditable maintainer reports,
 - regression tests for high-risk actions.
 
@@ -36,6 +43,9 @@ What it focuses on:
 A new public-safe core for durable agent memory: Obsidian-backed knowledge
 cards, indexes, context packs, and branch-return checks for coding-agent
 workflows.
+
+It answers the context question: how does useful project knowledge survive
+beyond one chat, one branch, or one model session?
 
 What it focuses on:
 
@@ -54,15 +64,18 @@ paths, and service-specific workflows stay off the public surface.
 
 ## Next Signals
 
-- MONOLITH Core v0.1 follow-up issues
-- downstream adapter confidence for the I/O Safety Kit v1 line
-- adapter-safe JSON handling
-- safer downstream dogfooding patterns
+- show the two-repo pattern clearly: I/O Safety Kit controls side effects;
+  MONOLITH Core keeps context recoverable
+- keep converting private downstream lessons into public-safe issues, docs,
+  examples, tests, and releases
+- publish lightweight maintainer workflow notes without private logs, local
+  paths, secrets, or service-specific wiring
 
 ## Links
 
 - [I/O Safety Kit for OSS](https://github.com/monolith-droid/io-safety-kit-for-oss)
-- [I/O Safety Kit latest release](https://github.com/monolith-droid/io-safety-kit-for-oss/releases/tag/v1.1.0)
+- [I/O Safety Kit latest release](https://github.com/monolith-droid/io-safety-kit-for-oss/releases/tag/v1.2.0)
 - [I/O Safety Kit security model](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/security-model.md)
+- [I/O Safety Kit cross-platform dogfooding](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/cross-platform-dogfooding.md)
 - [MONOLITH Core](https://github.com/monolith-droid/monolith-core)
-- [MONOLITH Core latest release](https://github.com/monolith-droid/monolith-core/releases/tag/v0.1.2)
+- [MONOLITH Core latest release](https://github.com/monolith-droid/monolith-core/releases/tag/v0.2.6)
