@@ -20,6 +20,9 @@ A stable v1 fail-closed I/O safety layer for OSS maintainers using Codex and
 other coding agents for PR review, issue triage, release prep, security checks,
 and handoff reports.
 
+Latest: [v1.3.0](https://github.com/monolith-droid/io-safety-kit-for-oss/releases/tag/v1.3.0),
+with a common JSON command-result contract plus wheel and tag-push CI checks.
+
 It answers the operational question: what may an agent read, propose, render,
 or promote without surprising the maintainer?
 
@@ -32,6 +35,7 @@ What it focuses on:
 - safe output promotion,
 - evidence bundle review,
 - cross-platform downstream dogfooding,
+- schema-backed JSON command results,
 - auditable maintainer reports,
 - regression tests for high-risk actions.
 
@@ -44,6 +48,10 @@ A new public-safe core for durable agent memory: Obsidian-backed knowledge
 cards, indexes, context packs, and branch-return checks for coding-agent
 workflows.
 
+Latest: [v0.3.0](https://github.com/monolith-droid/monolith-core/releases/tag/v0.3.0),
+with a report-only adapter-readiness contract that rejects private or
+host-specific references.
+
 It answers the context question: how does useful project knowledge survive
 beyond one chat, one branch, or one model session?
 
@@ -53,6 +61,7 @@ What it focuses on:
 - machine-readable knowledge indexes,
 - task-specific context packs,
 - branch-return reports,
+- public-safe adapter-readiness reports,
 - Hermes-style report-only curation,
 - synthetic fixtures and CI-friendly validation.
 
@@ -61,6 +70,11 @@ What it focuses on:
 This profile only publishes the reusable OSS layer: tools, docs, examples,
 fixtures, and releases. Private operations, personal details, secrets, local
 paths, and service-specific workflows stay off the public surface.
+
+| Layer | Stable contract | Boundary |
+| --- | --- | --- |
+| I/O Safety Kit | side-effect gates and JSON command results | decides what an agent may read, report, or promote |
+| MONOLITH Core | durable context and adapter-readiness reports | preserves reusable knowledge without runtime authority |
 
 ## Next Signals
 
@@ -74,8 +88,8 @@ paths, and service-specific workflows stay off the public surface.
 ## Links
 
 - [I/O Safety Kit for OSS](https://github.com/monolith-droid/io-safety-kit-for-oss)
-- [I/O Safety Kit latest release](https://github.com/monolith-droid/io-safety-kit-for-oss/releases/tag/v1.2.0)
+- [I/O Safety Kit latest release](https://github.com/monolith-droid/io-safety-kit-for-oss/releases/tag/v1.3.0)
 - [I/O Safety Kit security model](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/security-model.md)
 - [I/O Safety Kit cross-platform dogfooding](https://github.com/monolith-droid/io-safety-kit-for-oss/blob/main/docs/cross-platform-dogfooding.md)
 - [MONOLITH Core](https://github.com/monolith-droid/monolith-core)
-- [MONOLITH Core latest release](https://github.com/monolith-droid/monolith-core/releases/tag/v0.2.6)
+- [MONOLITH Core latest release](https://github.com/monolith-droid/monolith-core/releases/tag/v0.3.0)
